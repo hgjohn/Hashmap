@@ -12,7 +12,7 @@ This method of collision resolution uses a Dynamic Array where each index repres
 
 ![Screenshot 2023-06-27 at 12-40-59 Exploration Hash Table Collisions DATA STRUCTURES (CS_261_406_S2023)](https://github.com/hgjohn/Hashmap/assets/103093070/438fe75a-0a2f-4d14-acf8-453558c3d759)
 
-Example: Separate chaining implementation.
+Example: Separate chaining implementation where bucket index 95 contains both Beyonce and Jon Stewart.
 
 
 
