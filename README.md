@@ -1,7 +1,7 @@
 
 # Hash Map 
 
-Hash map implementation in Python 3 based on the Python dictionary model.  Includes two methods for collision resolution: Separate Chaining and Open Addressing with quadratic probing.
+Hash map implementation in Python 3 based on the Python dictionary dictionary implementation.  Includes two methods for collision resolution: Separate Chaining and Open Addressing with quadratic probing.
 Insert, get, and remove functions are all constant time complexity due to the nature of hashing each key to its preferred index. 
 
 
