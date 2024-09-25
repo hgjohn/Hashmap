@@ -18,7 +18,7 @@ Example: Separate chaining implementation where bucket index 95 contains both Be
 
 ## Open Addressing  
 
-This method of collision resolution uses a Dynamic Array alone.  If the hashed index for a value is occupied, the next index is probed (quadratically in this implementation).  If the array is Upon removal, a value is replaced by a Tombstone value (__TS__) so that the index may be filled by a new value.  The table load in open addressing can not exceed 1, since a table of n capacity can only hold n values.
+This method of collision resolution uses a Dynamic Array alone.  If the hashed index for a value is occupied, the next index is probed (quadratically in this implementation).  Upon removal, a value is replaced by a Tombstone value (__TS__) so that the index may be filled by a new value.  The table load in open addressing can not exceed 1, since a table of n capacity can only hold n values.
 
 ![Screenshot 2023-06-27 at 12-41-04 Exploration Hash Table Collisions DATA STRUCTURES (CS_261_406_S2023)](https://github.com/hgjohn/Hashmap/assets/103093070/8b246133-e2ce-41be-8989-2683cde96381)
 
